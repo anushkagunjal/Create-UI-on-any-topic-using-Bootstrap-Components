@@ -1,0 +1,261 @@
+.nav{
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    word-spacing: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  .bgimg{
+    width: 100%;
+    height: 600px;
+  }
+  .font{
+    font-size: 70px;
+    font-weight: 500;
+    color:rgb(202, 233, 243) ;
+    margin-bottom: 0px;
+  }
+  .size{
+    height: 350px;
+    background-color:  rgb(82, 175, 180);
+    font-size: 14px;
+  }
+.img1{
+    background-image: url(images/trek\ 1.jpg);
+  }
+.img2{
+    background-image: url(images/fort\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+.img{
+    width: 100%;
+    height: 350px;
+ }
+.line{
+    margin-top: 20px;
+  }
+p{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+  }
+h6{
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+.textover
+{
+    text-align: center;
+    padding: 15%;
+}
+h3 {
+    text-align: center;
+    padding: 10px;
+    color:rgb(12, 92, 102);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 13px;
+}
+.space2{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.img2{
+  width: 100%;
+  height: 300px;
+}
+.font1{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.form{
+  padding: 20px;
+  margin: 10px;
+  border: solid teal;
+}
+.h2{
+  text-align: center;
+  font-size: 35px;
+}
+.col{
+  background-color: rgb(159, 230, 230);
+}
+.button{
+  padding: 7px;
+  margin:7px;
+  border-radius: 0px 15px 0px 15px;
+  color:white;
+  background-color: black;
+  font-size: 15px;
+  border: solid 2px black;
+}
+.p1{
+  color: black;
+  font-size: 15px;
+}
+h5{
+  font-size: 25px;
+  color: rgb(8, 172, 180);
+  font-weight: bold;
+}
+.con{
+  background-color: rgb(207, 241, 241);
+  padding-bottom: 15px;
+}
+.card1{
+  border-radius: 20px;
+  border: solid 0.1px black;
+}
+.cardtext{
+  color: rgb(22, 135, 141);
+  font-size: 20px;
+}
+.list{
+  list-style-type: none;
+  font-size: 18px;
+  text-decoration: none;
+  color:black;
+  padding-top: 10px;
+}
+.con1{
+  background-color: rgb(241, 227, 184);
+  padding-bottom: 15px;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+h4{
+  color: black;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+.p1{
+  color: black;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+.faq{
+  font-size: 15px;
+  padding: 0px;
+  margin-top: 0px;
+  color: black;
+}
+.cardheader{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.cardtext{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  background-color: rgb(214, 233, 236);
+  border-radius: 15px;
+  text-align: center;
+}
+.cardtext:hover{
+  transform: scale(1.08);
+}
+.con2{
+  background-color: rgba(233, 222, 222, 0.89);
+}
+.btnblock{
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  padding: 0px;
+  margin: 5px;
+  border: black;
+  font-weight: 600;
+  margin-left: 0px;
+}
+.bgcolor{
+  background-color: rgb(245, 239, 239);
+  color: white;
+}
+.text1{
+  font-size: 18px;
+  color: black;
+}
+.text2{
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 0px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+.con3{
+  background-color: rgb(231, 224, 224);
+  padding-top: 20px;
+}
+.fa {     
+  margin: 5px 2px;  
+  font-size: 20px;  
+  width: 50px;
+  float: left;
+  padding: 5px;
+}
+.list2{
+ list-style-type: none;
+}
+.text{
+ margin-left: 50px;
+}
+
+.text3{
+  font-size: 0px;
+}
+.card3:hover{
+ transform: scale(1.05);
+ box-shadow: 0 20px 30px rgba(0,0,0,.12), 0 5px 10px rgba(0,0,0,.06);
+ transition: all 0.3s ease;
+}
+.box{
+  width: 100%;
+  height: 350px;
+}
+.box .front,
+.box .back{
+  position: absolute;
+  width: 100%; height: 350px;
+  background: white;
+  backface-visibility: hidden; cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(163,61,21,0.200),
+  0 -5px 30px rgba(115,55,212,0.200);
+  transition: transform .4s;
+}
+.back{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  transform: perspective(800px) rotateX(-180deg);
+}
+.box .back p{
+  margin: 10px 20px;
+  text-align: center;
+  color: black;
+}
+.box .back h6{
+  color: black;
+  font-size: 35px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.box .front img{
+  width: 100%;
+  height: 350px;
+}
+.box:hover .front{
+  transform: perspective(800px) rotateX(180deg);
+}
+.box:hover .back{
+  border-radius: 20px 20px 20px 20px;
+  transform: perspective(800px) rotate(0);
